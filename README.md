@@ -28,7 +28,7 @@
 
 #### 사전 설치  
 - tensorflow가 오류날 경우 dependencies까지 모두 초기화를 한 다음 다시 설치해야 함  
-- [Uninstall conflicting dependencies 방법 링크](https://stackoverflow.com/questions/58547571/tensorflow-dependencies-tensorflow-1-15-0-has-requirement-tensorboard1-16-0)  
+- [충돌이 나는 종속성까지 제거하는(Uninstall conflicting dependencies) 방법 링크](https://stackoverflow.com/questions/58547571/tensorflow-dependencies-tensorflow-1-15-0-has-requirement-tensorboard1-16-0)  
 ```python  
 pip uninstall tensorflow tensorflow-tensorboard tensorflow-estimator  
 ```  

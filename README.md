@@ -13,12 +13,19 @@
 
 ## 개요
 ### 데스크탑 버전  
-* 이 레파지토리를 다운로드 받아서 사용함
+* 이 레파지토리를 다운로드 받아서 사용함, image 폴더 안의 이미지들은 결과를 보여주기 위한 캡쳐파일이므로, 프로그램의 구동과는 관계가 없음  
 
 * traingApple.py 파일은 apple_dataset폴더의 데이터셋을 이용해 pretrained-yolov3.h5파일로 학습을 하며 사용한 데이터셋 폴더 안에 cache, json, logs폴더를 만들고, json폴더 안에는 detection_config.json 파일이 만들어진다.  
 
-* testApple.py파일은 detection_model-ex-028--loss-8.723.h5파일과 training 단계에서 만들어진 detection_config.json 파일을 이용해 
-* testNormalApple.py파일과 testDefactedApple.py 파일은 detection_model-ex-028--loss-8.723.h5파일과 training 단계에서 만들어진 detection_config.json 파일을 이용해 각각 image_apple.jpg와 defactedApple.jpg파일을 불러와 추론하고 결과값과 결과 이미지를 보여준다.  
+* testApple.py파일은 detection_model-ex-028--loss-8.723.h5파일과 training 단계에서 만들어진 detection_config.json 파일을 이용해 image_apple.jpg 파일을 불러와 추론하고 결과값을 출력하고 image-new.jpg 파일을 저장한다.  
+
+* testNormalApple.py파일과 testDefactedApple.py 파일은 detection_model-ex-028--loss-8.723.h5파일과 training 단계에서 만들어진 detection_config.json 파일을 이용해 각각 image_apple.jpg와 defactedApple.jpg파일을 불러와 추론하고 image-new.jpg, image-new1.jpg 파일을 저장 한 다음 결과값과 결과 이미지를 보여준다.  
+
+![](https://github.com/mtinet/appleAI/blob/master/images/resultDesktop1.png?raw=true)  
+![](https://github.com/mtinet/appleAI/blob/master/images/resultDesktop2.png?raw=true)  
+![](https://github.com/mtinet/appleAI/blob/master/images/resultDesktop3.png?raw=true)  
+![](https://github.com/mtinet/appleAI/blob/master/images/resultDesktop4.png?raw=true)  
+![](https://github.com/mtinet/appleAI/blob/master/images/resultDesktop5.png?raw=true)  
 
 * 
 

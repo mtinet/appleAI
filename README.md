@@ -1,8 +1,10 @@
 # appleAI
 
 ## 멀쩡한 사과와 상한 사과를 구별하는 visionAI 모델을 만들고 테스트 하기  
+
 ### 아래의 python 파일, 사전학습모델파일, 감지 모델파일, 데이터셋을 모두 다운로드 한다.  
 (단, 함께 첨부된 detection_config.json파일은 colab을 이용해 2번의 epoch만 돌려서 만든 파일로 이 파일을 이용해 최종 추론 파일들(testApple.py, testNormalApple.py, testDefactedApple.py)을 구동시킬 수는 있지만, trainingApple.py파일을 이용해 학습하는 과정에서 직접 생성할 수도 있다.)  
+
 ### 트레이닝 파일과 테스트 파일에 있는 로드 부분은 실제 해당 파일이나 폴더의 path를 정확하게 맞춰줘야 한다.  
 - trainingApple.py : 데이터셋을 이용한 학습을 하는 파일  
 - testApple.py : 학습한 모델을 이용해 추론하는 파일(일반 사과 파일을 불러옴)   
@@ -12,6 +14,7 @@
 - [detection_model-ex-028--loss-8.723.h5 다운로드](https://drive.google.com/file/d/1rDqf4I94dVMcUnlZVytutMAd1SfPrkH5/view?usp=sharing)  
 - [apple dataset 다운로드](https://drive.google.com/file/d/1eNgPrxJxu_s-79OIVgSgv_VifQ9YZeEd/view?usp=sharing)  
 
+### 이 예제는 데스크탑 버전과 구글 드라이브의 코랩버전으로 모두 실행할 수 있도록 자료를 제시하고 있으며, 각각 버전의 특성에 맞게 코드가 일부 수정되어 있음  
 
 ## 개요
 ### 데스크탑 버전  

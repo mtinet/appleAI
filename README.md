@@ -16,6 +16,9 @@
 
 #### 이 예제는 데스크탑 버전과 구글 드라이브의 코랩버전으로 모두 실행할 수 있도록 자료를 제시하고 있으며, 각각 버전의 특성에 맞게 코드가 일부 수정되어 있음  
 
+* [참조 사이트 링크](https://medium.com/deepquestai/ai-in-agriculture-detecting-defects-in-apples-b246799b329c)  
+
+
 ## 개요
 ### 데스크탑 버전  
 * 이 레파지토리를 다운로드 받아서 사용함, image 폴더 안의 이미지들은 결과를 보여주기 위한 캡쳐파일이므로, 프로그램의 구동과는 관계가 없음  
@@ -57,8 +60,6 @@ pip install imageai --upgrade
 
 
 ### 코랩 버전  
-* [참조 사이트 링크](https://medium.com/deepquestai/ai-in-agriculture-detecting-defects-in-apples-b246799b329c)  
-
 * [코랩 실행 예제 링크](https://colab.research.google.com/drive/1vfISFuOlMtpS06XdkuUFr81w5EtCBfoO)  
 
 * 이 예제를 코랩으로 실행할 때는 구글 드라이브를 연계해야 코랩이 끊어져도 데이터를 유지할 수 있음(예제의 첫부분이 구글 드라이브와 연계하는 부분)  

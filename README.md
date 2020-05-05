@@ -40,6 +40,6 @@
 * 결과(이미지를 보여주지 않는 결과, 파일은 코랩에 저장되도록 되어 있음)  
 ![](https://github.com/mtinet/appleAI/blob/master/images/result.png?raw=true)  
 
-* 결과(이미지를 보여주는 결과, 파일은 코랩에 저장되도록 되어 있음)  
+* 결과(이미지를 보여주는 결과, cv2를 이용해 결과 이미지를 보여주도록 코드를 수정함, 파일은 코랩에 저장되도록 되어 있음)  
 ![](https://github.com/mtinet/appleAI/blob/master/images/result1.png?raw=true)  
 ![](https://github.com/mtinet/appleAI/blob/master/images/result2.png?raw=true)  

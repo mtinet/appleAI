@@ -37,7 +37,7 @@ pip uninstall tensorflow tensorflow-tensorboard tensorflow-estimator
 ```  
 
 ```python  
-pip install tensorflow-gpu==1.13.1  
+pip install tensorflow-gpu==1.13.1 또는 pip install tensorflow==1.13.1   
 pip install keras  
 pip install opencv-python  
 pip install imageai --upgrade  

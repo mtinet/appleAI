@@ -26,7 +26,7 @@
  - validation-annotations(이미지 정보를 지도학습으로 지도하기 위한 정보가 들어있는 xml 파일들을 포함함)  
  - validation-images(이미지 파일들을 포함함, annotations 파일과 파일명이 같음, 일반사과 75장, 결함사과 75장)  
 
-* 사전 설치  
+#### 사전 설치  
 - tensorflow가 오류날 경우 dependencies까지 모두 초기화를 한 다음 다시 설치해야 함  
 - [Uninstall conflicting dependencies 방법 링크](https://stackoverflow.com/questions/58547571/tensorflow-dependencies-tensorflow-1-15-0-has-requirement-tensorboard1-16-0)  
 ```python  
@@ -54,9 +54,6 @@ pip install imageai --upgrade
 ![](https://github.com/mtinet/appleAI/blob/master/images/resultDesktop3.png?raw=true)  
 ![](https://github.com/mtinet/appleAI/blob/master/images/resultDesktop4.png?raw=true)  
 ![](https://github.com/mtinet/appleAI/blob/master/images/resultDesktop5.png?raw=true)  
-
-* 
-
 
 
 ### 코랩 버전  

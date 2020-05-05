@@ -12,9 +12,9 @@
 
 ## 개요
 * [참조 사이트 링크](https://medium.com/deepquestai/ai-in-agriculture-detecting-defects-in-apples-b246799b329c)  
+* [코랩 실행 예제 링크](https://colab.research.google.com/drive/1vfISFuOlMtpS06XdkuUFr81w5EtCBfoO)  
 * 이 예제를 코랩으로 실행할 때는 구글 드라이브를 연계해야 코랩이 끊어져도 데이터를 유지할 수 있음(예제의 첫부분이 구글 드라이브와 연계하는 부분)  
 ![](https://github.com/mtinet/appleAI/blob/master/images/connectGDrive.png?raw=true)  
-* [코랩 실행 예제 링크](https://colab.research.google.com/drive/1vfISFuOlMtpS06XdkuUFr81w5EtCBfoO)  
 * 코랩을 사용해도 epoch당 15분 정도가 걸리므로 총 50회의 epoch를 돌리기 위해서는 12시간이 넘게 걸리게 되고, 컴퓨터를 켜놓고 잔다고 해도 자동으로 연결이 끊어지므로, 2~5번 정도의 epoch만 돌려볼 것을 권장함, 5번 정도 돌리면 loss가 많이 줄어 있음   
 ![](https://github.com/mtinet/appleAI/blob/master/images/colab1.png?raw=true)  
 ![](https://github.com/mtinet/appleAI/blob/master/images/colab2.png?raw=true)  

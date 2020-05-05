@@ -3,7 +3,7 @@
 ## 멀쩡한 사과와 상한 사과를 구별하는 visionAI 모델을 만들고 테스트 하기  
 ### 아래의 python 파일, 사전학습모델파일, 감지 모델파일, 데이터셋을 모두 다운로드 한다.  
 ### 트레이닝 파일과 테스트 파일에 있는 로드 부분은 실제 해당 파일이나 폴더의 path를 정확하게 맞춰줘야 한다.  
-- traningApple.py : 데이터셋을 이용한 학습을 하는 파일  
+- trainingApple.py : 데이터셋을 이용한 학습을 하는 파일  
 - testNormalApple.py : 학습한 모델을 이용해 추론하는 파일(일반 사과 파일을 불러옴)  
 - testDefactedApple.py : 학습한 모델을 이용해 추론하는 파일(결함 사과 파일을 불러옴)  
 - [pretrained-yolov3.h5 다운로드](https://drive.google.com/file/d/1G7WNC9is3J-qcp16lNap4PzT_bubdadp/view?usp=sharing)  
@@ -12,6 +12,18 @@
 
 
 ## 개요
+### 데스크탑 버전  
+* 이 레파지토리를 다운로드 받아서 사용함
+
+* traingApple.py 파일은 apple_dataset폴더의 데이터셋을 이용해 pretrained-yolov3.h5파일로 학습을 하며 사용한 데이터셋 폴더 안에 cache, json, logs폴더를 만들고, json폴더 안에는 detection_config.json 파일이 만들어진다.  
+
+* testNormalApple.py파일과 testDefactedApple.py 파일은 detection_model-ex-028--loss-8.723.h5파일과 training 단계에서 만들어진 detection_config.json 파일을 이용해 각각 image_apple.jpg와 defactedApple.jpg파일을 불러와 추론하고 결과값과 결과 이미지를 보여준다.  
+
+* 
+
+
+
+### 코랩 버전  
 * [참조 사이트 링크](https://medium.com/deepquestai/ai-in-agriculture-detecting-defects-in-apples-b246799b329c)  
 
 * [코랩 실행 예제 링크](https://colab.research.google.com/drive/1vfISFuOlMtpS06XdkuUFr81w5EtCBfoO)  
@@ -44,3 +56,4 @@
 * 결과(이미지를 보여주는 결과, cv2를 이용해 결과 이미지를 보여주도록 코드를 수정함, 파일은 코랩에 저장되도록 되어 있음)  
 ![](https://github.com/mtinet/appleAI/blob/master/images/result1.png?raw=true)  
 ![](https://github.com/mtinet/appleAI/blob/master/images/result2.png?raw=true)  
+

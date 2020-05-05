@@ -29,16 +29,16 @@
 * 사전 설치  
 - tensorflow가 오류날 경우 dependencies까지 모두 초기화를 한 다음 다시 설치해야 함  
 - [Uninstall conflicting dependencies 방법 링크](https://stackoverflow.com/questions/58547571/tensorflow-dependencies-tensorflow-1-15-0-has-requirement-tensorboard1-16-0)  
-'''python  
+```python  
 pip uninstall tensorflow tensorflow-tensorboard tensorflow-estimator  
-'''  
+```  
 
-'''python  
+```python  
 pip install tensorflow-gpu==1.13.1  
 pip install keras  
 pip install opencv-python  
 pip install imageai --upgrade  
-'''
+```
 
 * traingApple.py 파일은 apple_dataset폴더의 데이터셋을 이용해 pretrained-yolov3.h5파일로 학습을 하며 사용한 데이터셋 폴더 안에 cache, json, logs, models폴더를 만들고, json폴더 안에는 detection_config.json 파일이 만들어진다.  
 ![](https://github.com/mtinet/appleAI/blob/master/images/folder1.png?raw=true)  

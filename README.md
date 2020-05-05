@@ -29,10 +29,10 @@
 * 학습이 끝나면 마지막에서 두번째 코드와 마지막 코드를 통해 실제 사과를 분석할 수 있는데, 이 때 사용할 사과의 이미지는 사용자가 선택해서 사용하면 되고, path만 정확하게 맞춰주면 됨  
 
 * 내가 사용한 멀쩡한 사과 이미지  
-![](https://github.com/mtinet/appleAI/blob/master/images/image_apple.png?raw=true)  
+![](https://github.com/mtinet/appleAI/blob/master/images/image_apple.jpg?raw=true)  
 
 * 내가 사용한 결함이 있는 사과 이미지  
-![](https://github.com/mtinet/appleAI/blob/master/images/image_defactedApple.png?raw=true)  
+![](https://github.com/mtinet/appleAI/blob/master/images/image_defactedApple.jpg?raw=true)  
 
 * 결과  
 ![](https://github.com/mtinet/appleAI/blob/master/images/result.png?raw=true)  

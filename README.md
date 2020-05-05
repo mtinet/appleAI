@@ -24,6 +24,7 @@
 * traingApple.py 파일은 apple_dataset폴더의 데이터셋을 이용해 pretrained-yolov3.h5파일로 학습을 하며 사용한 데이터셋 폴더 안에 cache, json, logs, models폴더를 만들고, json폴더 안에는 detection_config.json 파일이 만들어진다.  
 
 * testApple.py파일은 detection_model-ex-028--loss-8.723.h5파일과 training 단계에서 만들어진 detection_config.json 파일을 이용해 image_apple.jpg 파일을 불러와 추론하고 결과값을 출력하고 image-new.jpg 파일을 저장한다.  
+![](https://github.com/mtinet/appleAI/blob/master/images/resultDesktop.png?raw=true)  
 
 * testNormalApple.py파일과 testDefactedApple.py 파일은 detection_model-ex-028--loss-8.723.h5파일과 training 단계에서 만들어진 detection_config.json 파일을 이용해 각각 image_apple.jpg와 defactedApple.jpg파일을 불러와 추론하고 image-new.jpg, image-new1.jpg 파일을 저장 한 다음 결과값과 결과 이미지를 보여준다.  
 

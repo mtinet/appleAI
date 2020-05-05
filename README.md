@@ -4,6 +4,7 @@
 ### 아래의 python 파일, 사전학습모델파일, 감지 모델파일, 데이터셋을 모두 다운로드 한다.  
 ### 트레이닝 파일과 테스트 파일에 있는 로드 부분은 실제 해당 파일이나 폴더의 path를 정확하게 맞춰줘야 한다.  
 - trainingApple.py : 데이터셋을 이용한 학습을 하는 파일  
+- testApple.py : 학습한 모델을 이용해 추론하는 파일(일반 사과 파일을 불러옴)   
 - testNormalApple.py : 학습한 모델을 이용해 추론하는 파일(일반 사과 파일을 불러옴)  
 - testDefactedApple.py : 학습한 모델을 이용해 추론하는 파일(결함 사과 파일을 불러옴)  
 - [pretrained-yolov3.h5 다운로드](https://drive.google.com/file/d/1G7WNC9is3J-qcp16lNap4PzT_bubdadp/view?usp=sharing)  

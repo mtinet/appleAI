@@ -32,7 +32,7 @@
 ![](https://github.com/mtinet/appleAI/blob/master/images/image_apple.png?raw=true)  
 
 * 내가 사용한 결함이 있는 사과 이미지  
-![](https://github.com/mtinet/appleAI/blob/master/images/image_defacted apple.png?raw=true)  
+![](https://github.com/mtinet/appleAI/blob/master/images/image_defactedApple.png?raw=true)  
 
 * 결과  
 ![](https://github.com/mtinet/appleAI/blob/master/images/result.png?raw=true)  

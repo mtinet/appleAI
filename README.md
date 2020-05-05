@@ -12,9 +12,12 @@
 
 ## 개요
 * [참조 사이트 링크](https://medium.com/deepquestai/ai-in-agriculture-detecting-defects-in-apples-b246799b329c)  
+
 * [코랩 실행 예제 링크](https://colab.research.google.com/drive/1vfISFuOlMtpS06XdkuUFr81w5EtCBfoO)  
+
 * 이 예제를 코랩으로 실행할 때는 구글 드라이브를 연계해야 코랩이 끊어져도 데이터를 유지할 수 있음(예제의 첫부분이 구글 드라이브와 연계하는 부분)  
 ![](https://github.com/mtinet/appleAI/blob/master/images/connectGDrive.png?raw=true)  
+
 * 코랩을 사용해도 epoch당 15분 정도가 걸리므로 총 50회의 epoch를 돌리기 위해서는 12시간이 넘게 걸리게 되고, 컴퓨터를 켜놓고 잔다고 해도 자동으로 연결이 끊어지므로, 2~5번 정도의 epoch만 돌려볼 것을 권장함, 5번 정도 돌리면 loss가 많이 줄어 있음   
 ![](https://github.com/mtinet/appleAI/blob/master/images/colab1.png?raw=true)  
 ![](https://github.com/mtinet/appleAI/blob/master/images/colab2.png?raw=true)  
@@ -22,3 +25,14 @@
 
 * 이 예제를 데스크탑(xeon 3123, GTX750)으로 구동하면 코랩보다 훨씬 오래 걸림  
 ![](https://github.com/mtinet/appleAI/blob/master/images/desktop.png?raw=true)  
+
+* 학습이 끝나면 마지막에서 두번째 코드와 마지막 코드를 통해 실제 사과를 분석할 수 있는데, 이 때 사용할 사과의 이미지는 사용자가 선택해서 사용하면 되고, path만 정확하게 맞춰주면 됨  
+
+* 내가 사용한 멀쩡한 사과 이미지  
+![](https://github.com/mtinet/appleAI/blob/master/images/image_apple.png?raw=true)  
+
+* 내가 사용한 결함이 있는 사과 이미지  
+![](https://github.com/mtinet/appleAI/blob/master/images/image_defacted apple.png?raw=true)  
+
+* 결과  
+![](https://github.com/mtinet/appleAI/blob/master/images/result.png?raw=true)  

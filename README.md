@@ -27,6 +27,7 @@
 ![](https://github.com/mtinet/appleAI/blob/master/images/desktop.png?raw=true)  
 
 * traningApple.py 파일을 이용해 학습을 시키고 나면, 불러온 데이터셋이 있는 폴더(여기서는 apple_dataset)안에 json폴더가 생기고, 그 안에 detection_config.json 파일이 만들어짐. testApple.py 파일은 이 json파일과 detection_model-ex-028--loss-8.723.h5을 불러와서 내가 확인하고 싶은 이미지의 사과의 결함여부를 확인하게 됨  
+![](https://github.com/mtinet/appleAI/blob/master/images/json.png?raw=true)  
 
 * 학습이 끝나면 마지막에서 두번째 코드와 마지막 코드를 통해 실제 사과를 분석할 수 있는데, 이 때 사용할 사과의 이미지는 사용자가 선택해서 사용하면 되고, path만 정확하게 맞춰주면 됨  
 

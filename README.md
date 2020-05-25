@@ -44,6 +44,7 @@ pip install opencv-python
 pip install imageai --upgrade  
 ```
 
+ - GPU를 사용하려면 이 [링크](https://wordbe.tistory.com/entry/Windows-tensorflow-GPU-%EC%84%A4%EC%B9%98)를 클릭하고 따라하세요.  
 * traingApple.py 파일은 apple_dataset폴더의 데이터셋을 이용해 pretrained-yolov3.h5파일로 학습을 하며 사용한 데이터셋 폴더 안에 cache, json, logs, models폴더를 만들고, json폴더 안에는 detection_config.json 파일이 만들어진다. 다만 이 폴더와 파일들은 삭제한 상태여아만 새로운 학습이 가능하다. 만약 삭제하지 않고 학습을 할 경우 오류가 발생한다.  
 ![](https://github.com/mtinet/appleAI/blob/master/images/folder1.png?raw=true)  
 ![](https://github.com/mtinet/appleAI/blob/master/images/folder2.png?raw=true)  

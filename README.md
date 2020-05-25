@@ -32,10 +32,18 @@
 #### 사전 설치  
 - tensorflow가 오류날 경우 dependencies까지 모두 초기화를 한 다음 다시 설치해야 함  
 - [충돌이 나는 종속성까지 제거하는(Uninstall conflicting dependencies) 방법 링크](https://stackoverflow.com/questions/58547571/tensorflow-dependencies-tensorflow-1-15-0-has-requirement-tensorboard1-16-0)  
+- 아래 명령어로 pip를 통해 설치된 모듈의 종류를 확인한다.
 ```python  
-pip uninstall tensorflow tensorflow-tensorboard tensorflow-estimator  
+pip list
+```  
+- 아래 명령어를 참고로 tensorflow 관련 모듈을 모두 삭제한다.
+```python  
+pip uninstall tensorflow 
+pip uninstall tensorflow-tensorboard 
+pip uninstall tensorflow-estimator  
 ```  
 
+- 아래 명령어들을 이용해 필요한 모듈들을 설치한다. 단, tensorflow는 다른 버전을 설치하면 추론만 가능하고 트레이닝을 하려면 1.13.1버전을 설치해야 한다.  
 ```python  
 pip install tensorflow==1.13.1  
 (자신의 상황에 따라서 pip install tensorflow-gpu==1.13.1 명령어를 통해 gpu버전 텐서플로우를 설치할 수는 있지만, dll파일 오류로 트레이닝이 안됨)  

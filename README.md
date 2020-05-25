@@ -38,7 +38,7 @@ pip uninstall tensorflow tensorflow-tensorboard tensorflow-estimator
 
 ```python  
 pip install tensorflow==1.13.1  
-(또는 자신의 상황에 따라서 pip install tensorflow-gpu==1.13.1)  
+(자신의 상황에 따라서 pip install tensorflow-gpu==1.13.1 명령어를 통해 gpu버전 텐서플로우를 설치할 수는 있지만, dll파일 오류로 트레이닝이 안됨)  
 pip install keras  
 pip install opencv-python  
 pip install imageai --upgrade  
